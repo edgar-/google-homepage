@@ -1,3 +1,94 @@
+
+#global-nav {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 100%;
+  font-size: 13px;
+  float: right;
+  display: flex;
+}
+.nav-bar {
+  width: 100%;
+  min-width: 315px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  text-align: right;
+  z-index: 986;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  margin-left: 0!important;
+  margin-right: 0!important;
+  float: right;
+}
+
+#global-nav .global-right {
+
+  vertical-align: middle;
+  text-align: right;
+  padding-left: 15px;
+  vertical-align: middle;
+  float: right;
+  -webkit-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-flex: 0 1 main-size;
+  flex: 0 1 main-size;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.nav-link {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  -webkit-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-flex: 0 1 main-size;
+  flex: 0 1 main-size;
+  text-overflow: ellipsis;
+  line-height: 24px;
+  outline: none;
+  font-family: arial,sans-serif;
+  color: #404040;
+  text-decoration: none;
+}
+#global-nav .global-right:first-child {
+  padding-left: 0;
+}
+
+#sign-in-button {
+  line-height: normal;
+  text-align: right;
+  min-width: 116px;
+  float: right;
+}
+
+#sign-in-button a.login {
+  line-height: normal;
+  float: right;
+  text-align: right;
+  color: #fff;
+  cursor: default;
+  font-family: arial,sans-serif;
+  text-decoration: none;
+
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: #4285f4;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  background: linear-gradient(top,#4387fd,#4683ea);
+
+  line-height: 28px;
+  padding: 0 12px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
 #logo {
     height:231px;margin-top:80px
 }
